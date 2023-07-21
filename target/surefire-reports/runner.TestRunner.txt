@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.017 s <<< FAILURE! - in runner.TestRunner
+Check login with valid credentials(demo functionality test)  Time elapsed: 0.163 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user calculated 1/0' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("user calculated {int}\\/{int}")
+public void user_calculated(Integer int1, Integer int2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
